@@ -1,0 +1,46 @@
+.container {
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.searchBar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #fff;
+  text-align: left;
+}
+.stars {
+  color: #f5a623;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  max-width: 400px;
+  width: 90%;
+}
+.modal button {
+  float: right;
+}
